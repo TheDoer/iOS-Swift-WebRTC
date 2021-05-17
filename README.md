@@ -13,6 +13,7 @@ NB: You can replace SocketRocket with any other such as StarScream
 2: Build and Run
 
 NB: XCode does not show camera or audio on simulator, use a real device.
+Use XCode 12 and above
 
 ## Motive
 Take Home Interview Project
