@@ -36,7 +36,7 @@
 		078363362410E33C003B5E1E /* Message+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+Ext.swift"; sourceTree = "<group>"; };
 		079C85B3240E57240017BC12 /* RoomClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomClient.swift; sourceTree = "<group>"; };
 		079C85B6240E59830017BC12 /* JoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinResponse.swift; sourceTree = "<group>"; };
-		07F4BB58240B5A9900F4B19B /* WebRTCTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebRTCTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F4BB58240B5A9900F4B19B /* WebRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F4BB5B240B5A9900F4B19B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F4BB5F240B5A9900F4B19B /* MainChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChatRoomViewController.swift; sourceTree = "<group>"; };
 		07F4BB62240B5A9900F4B19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		07F4BB4F240B5A9900F4B19B = {
 			isa = PBXGroup;
 			children = (
-				07F4BB5A240B5A9900F4B19B /* WebRTCTutorial */,
+				07F4BB5A240B5A9900F4B19B /* WebRTC */,
 				07F4BB59240B5A9900F4B19B /* Products */,
 				0967C9614481ED62DC7DA6BE /* Pods */,
 				6267DE5123783C58BEEE0048 /* Frameworks */,
@@ -122,12 +122,12 @@
 		07F4BB59240B5A9900F4B19B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07F4BB58240B5A9900F4B19B /* WebRTCTutorial.app */,
+				07F4BB58240B5A9900F4B19B /* WebRTC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07F4BB5A240B5A9900F4B19B /* WebRTCTutorial */ = {
+		07F4BB5A240B5A9900F4B19B /* WebRTC */ = {
 			isa = PBXGroup;
 			children = (
 				078363312410C2CF003B5E1E /* Camera */,
@@ -137,7 +137,7 @@
 				077B3008240F6F3B00A8659B /* Util */,
 				07F4BB6F240B5DA500F4B19B /* Supporting Files */,
 			);
-			path = WebRTCTutorial;
+			path = WebRTC;
 			sourceTree = "<group>";
 		};
 		07F4BB6F240B5DA500F4B19B /* Supporting Files */ = {
@@ -183,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07F4BB57240B5A9900F4B19B /* WebRTCTutorial */ = {
+		07F4BB57240B5A9900F4B19B /* WebRTC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07F4BB6C240B5A9C00F4B19B /* Build configuration list for PBXNativeTarget "WebRTCTutorial" */;
+			buildConfigurationList = 07F4BB6C240B5A9C00F4B19B /* Build configuration list for PBXNativeTarget "WebRTC" */;
 			buildPhases = (
 				4793C9614910E90CE39A22F9 /* [CP] Check Pods Manifest.lock */,
 				07F4BB54240B5A9900F4B19B /* Sources */,
@@ -197,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = WebRTCTutorial;
+			name = WebRTC;
 			productName = WebRTCTutorial;
-			productReference = 07F4BB58240B5A9900F4B19B /* WebRTCTutorial.app */;
+			productReference = 07F4BB58240B5A9900F4B19B /* WebRTC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 07F4BB53240B5A9900F4B19B /* Build configuration list for PBXProject "WebRTCTutorial" */;
+			buildConfigurationList = 07F4BB53240B5A9900F4B19B /* Build configuration list for PBXProject "WebRTC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,7 +230,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07F4BB57240B5A9900F4B19B /* WebRTCTutorial */,
+				07F4BB57240B5A9900F4B19B /* WebRTC */,
 			);
 		};
 /* End PBXProject section */
@@ -514,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07F4BB53240B5A9900F4B19B /* Build configuration list for PBXProject "WebRTCTutorial" */ = {
+		07F4BB53240B5A9900F4B19B /* Build configuration list for PBXProject "WebRTC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07F4BB6A240B5A9C00F4B19B /* Debug */,
@@ -523,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07F4BB6C240B5A9C00F4B19B /* Build configuration list for PBXNativeTarget "WebRTCTutorial" */ = {
+		07F4BB6C240B5A9C00F4B19B /* Build configuration list for PBXNativeTarget "WebRTC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07F4BB6D240B5A9C00F4B19B /* Debug */,
