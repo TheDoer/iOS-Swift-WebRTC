@@ -1,4 +1,4 @@
-# WebRTC-iOS-tutorial
+# WebRTC-iOS Swift
 Basic Demostration of WebRTC, Socket Rocket and iOS Swift.
 
 [SocketRocket](https://developer.squareup.com/blog/introducing-socketrocket-a-websocket-library-for-objective-c/)
@@ -8,7 +8,7 @@ Basic Demostration of WebRTC, Socket Rocket and iOS Swift.
 NB: You can replace SocketRocket with any other such as StarScream
 
 ## Installation
-s
+
 1: Install the pods
 2: Build and Run
 
@@ -17,11 +17,17 @@ NB: XCode does not show camera or audio on simulator, use a real device.
 ## Motive
 Take Home Interview Project
 
+* I wish to continue working on this project
+
 ## Limitation
 * I just use the Stun server for ice server in this example. So If you are on behide a NAT, there may be a problem.
 
 ## Todo
 * Exceptional case handling
 * Disconnect issuce check
+
+## Further Reading
+* Web Sockets Comparison
+ [](https://ios.libhunt.com/compare-socketrocket-vs-starscream)
 
 
