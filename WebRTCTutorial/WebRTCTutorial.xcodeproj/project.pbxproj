@@ -10,10 +10,8 @@
 		070AB8E5240DE0720053024E /* Pods_WebRTCTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B907A9DBD4680D754EED8D91 /* Pods_WebRTCTutorial.framework */; };
 		073908AD2411D5E0008B24DA /* dLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073908AC2411D5E0008B24DA /* dLog.swift */; };
 		073908B124121541008B24DA /* SignalMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073908B024121541008B24DA /* SignalMessage.swift */; };
-		077B3007240F535800A8659B /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B3006240F535800A8659B /* WebRTCClient.swift */; };
 		077B300A240F6F5A00A8659B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B3009240F6F5A00A8659B /* Extensions.swift */; };
 		0783633024108B62003B5E1E /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783632F24108B62003B5E1E /* WebSocketClient.swift */; };
-		078363332410C2DD003B5E1E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078363322410C2DD003B5E1E /* CameraManager.swift */; };
 		078363352410C51C003B5E1E /* VideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078363342410C51C003B5E1E /* VideoCallViewController.swift */; };
 		078363372410E33C003B5E1E /* Message+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078363362410E33C003B5E1E /* Message+Ext.swift */; };
 		079C85B4240E57240017BC12 /* RoomClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C85B3240E57240017BC12 /* RoomClient.swift */; };
@@ -25,15 +23,15 @@
 		07F4BB68240B5A9C00F4B19B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F4BB66240B5A9C00F4B19B /* LaunchScreen.storyboard */; };
 		07F4BB71240B5F9200F4B19B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F4BB70240B5F9200F4B19B /* Config.swift */; };
 		07F4BB73240B618000F4B19B /* TurnClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F4BB72240B618000F4B19B /* TurnClient.swift */; };
+		F1B541D92652B853008C11F5 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B541D82652B853008C11F5 /* CameraManager.swift */; };
+		F1B541DD2652B9C5008C11F5 /* WebRTCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B541DC2652B9C5008C11F5 /* WebRTCClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		073908AC2411D5E0008B24DA /* dLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dLog.swift; sourceTree = "<group>"; };
 		073908B024121541008B24DA /* SignalMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalMessage.swift; sourceTree = "<group>"; };
-		077B3006240F535800A8659B /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 		077B3009240F6F5A00A8659B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0783632F24108B62003B5E1E /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
-		078363322410C2DD003B5E1E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		078363342410C51C003B5E1E /* VideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewController.swift; sourceTree = "<group>"; };
 		078363362410E33C003B5E1E /* Message+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+Ext.swift"; sourceTree = "<group>"; };
 		079C85B3240E57240017BC12 /* RoomClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomClient.swift; sourceTree = "<group>"; };
@@ -50,6 +48,8 @@
 		19A1CB4EBC398532292E8F40 /* Pods-WebRTCTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTCTutorial.release.xcconfig"; path = "Target Support Files/Pods-WebRTCTutorial/Pods-WebRTCTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		4E55A86DFE2AB0AE50CA4170 /* Pods-WebRTCTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTCTutorial.debug.xcconfig"; path = "Target Support Files/Pods-WebRTCTutorial/Pods-WebRTCTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		B907A9DBD4680D754EED8D91 /* Pods_WebRTCTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebRTCTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B541D82652B853008C11F5 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		F1B541DC2652B9C5008C11F5 /* WebRTCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +67,9 @@
 		077B3005240F52C600A8659B /* WebRTC */ = {
 			isa = PBXGroup;
 			children = (
-				077B3006240F535800A8659B /* WebRTCClient.swift */,
 				078363362410E33C003B5E1E /* Message+Ext.swift */,
 				073908B024121541008B24DA /* SignalMessage.swift */,
+				F1B541DC2652B9C5008C11F5 /* WebRTCClient.swift */,
 			);
 			path = WebRTC;
 			sourceTree = "<group>";
@@ -86,7 +86,7 @@
 		078363312410C2CF003B5E1E /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				078363322410C2DD003B5E1E /* CameraManager.swift */,
+				F1B541D82652B853008C11F5 /* CameraManager.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = Eric;
+				ORGANIZATIONNAME = "Adonis Inc";
 				TargetAttributes = {
 					07F4BB57240B5A9900F4B19B = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -299,15 +299,15 @@
 				079C85B7240E59830017BC12 /* JoinResponse.swift in Sources */,
 				078363372410E33C003B5E1E /* Message+Ext.swift in Sources */,
 				077B300A240F6F5A00A8659B /* Extensions.swift in Sources */,
-				078363332410C2DD003B5E1E /* CameraManager.swift in Sources */,
 				07F4BB5C240B5A9900F4B19B /* AppDelegate.swift in Sources */,
 				073908AD2411D5E0008B24DA /* dLog.swift in Sources */,
 				0783633024108B62003B5E1E /* WebSocketClient.swift in Sources */,
+				F1B541D92652B853008C11F5 /* CameraManager.swift in Sources */,
 				07F4BB73240B618000F4B19B /* TurnClient.swift in Sources */,
 				079C85B4240E57240017BC12 /* RoomClient.swift in Sources */,
 				073908B124121541008B24DA /* SignalMessage.swift in Sources */,
 				078363352410C51C003B5E1E /* VideoCallViewController.swift in Sources */,
-				077B3007240F535800A8659B /* WebRTCClient.swift in Sources */,
+				F1B541DD2652B9C5008C11F5 /* WebRTCClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = WebRTCTutorial.do;
+				PRODUCT_BUNDLE_IDENTIFIER = "WebRTC-iOSSwift.do";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -503,7 +503,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = WebRTCTutorial.do;
+				PRODUCT_BUNDLE_IDENTIFIER = "WebRTC-iOSSwift.do";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

@@ -2,12 +2,23 @@
 //  WebSocketClient.swift
 //  WebRTCTutorial
 //
-//  Created by Eric on 2020/03/05.
-//  Copyright © 2020 Eric. All rights reserved.
+//  Created by Adonis Rumbwere on 11/5/2021.
+//  Copyright © 2021 Adonis Inc. All rights reserved.
 //
 
 import Foundation
 import SocketRocket
+
+//It’s called SocketRocket. It’s a WebSocket client written in modern Objective-C. It conforms to RFC 6455, the latest WebSocket specification. It supports wss since the connection is based off of CFStream (bridged to NSStream).
+//
+//This also means it supports iOS 4.x and doesn’t have any external dependencies. SocketRocket uses Automatic Reference Counting to keep the code simple and Grand Central Dispatch to keep the logic in the background.
+
+
+//A |wss| URI identifies a WebSocket server and resource name and
+//  indicates that traffic over that connection is to be protected via
+//  TLS (including standard benefits of TLS such as data confidentiality
+//  and integrity and endpoint authentication).
+
 
 protocol WebSocketClientDelegate: class {
     func webSocketDidConnect(_ webSocket: WebSocketClient)

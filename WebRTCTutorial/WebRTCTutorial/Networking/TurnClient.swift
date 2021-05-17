@@ -2,11 +2,14 @@
 //  TurnClient.swift
 //  WebRTCTutorial
 //
-//  Created by Eric on 2020/03/01.
-//  Copyright © 2020 Eric. All rights reserved.
+//  Created by Adonis Rumbwere on 17/5/2021.
+//  Copyright © 2021 Adonis Inc. All rights reserved.
 //
 
 import Foundation
+
+//TURN server
+//For most WebRTC applications to function a server is required for relaying the traffic between peers, since a direct socket is often not possible between the clients (unless they reside on the same local network). The common way to solve this is by using a TURN server. The term stands for Traversal Using Relay NAT, and it is a protocol for relaying network traffic.
 
 struct TurnClient {
     let turnClientUrl = URL(string: "https://appr.tc/params")!

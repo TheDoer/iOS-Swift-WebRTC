@@ -1,20 +1,28 @@
 PODS:
   - GoogleWebRTC (1.1.29400)
+  - IQKeyboardManager (6.5.6)
   - SocketRocket (0.5.1)
+  - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
   - GoogleWebRTC
+  - IQKeyboardManager
   - SocketRocket
+  - TextFieldEffects
 
 SPEC REPOS:
   trunk:
     - GoogleWebRTC
+    - IQKeyboardManager
     - SocketRocket
+    - TextFieldEffects
 
 SPEC CHECKSUMS:
   GoogleWebRTC: cfb83bc346435a17fe06bb05f04ad826b858a7fb
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 562d3c9279c89383867987d3233adbb9337dc44d
+PODFILE CHECKSUM: c0a628dfe6e3faec3418caa77903d8117bfcb9cf
 
 COCOAPODS: 1.9.3

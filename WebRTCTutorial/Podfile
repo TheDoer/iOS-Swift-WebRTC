@@ -7,4 +7,6 @@ target 'WebRTCTutorial' do
 
   pod 'GoogleWebRTC'
   pod 'SocketRocket'
+  pod 'IQKeyboardManager'
+  pod 'TextFieldEffects'
 end

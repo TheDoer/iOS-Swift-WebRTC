@@ -2,8 +2,8 @@
 //  DebugPrint.swift
 //  WebRTCTutorial
 //
-//  Created by Eric on 2020/03/06.
-//  Copyright © 2020 Eric. All rights reserved.
+//  Created by Adonis Rumbwere on 17/5/2021.
+//  Copyright © 2021 Adonis Inc. All rights reserved.
 //
 
 import Foundation

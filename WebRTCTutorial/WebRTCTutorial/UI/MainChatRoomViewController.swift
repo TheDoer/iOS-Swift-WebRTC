@@ -2,12 +2,13 @@
 //  ViewController.swift
 //  WebRTCTutorial
 //
-//  Created by Eric on 2020/03/01.
-//  Copyright © 2020 Eric. All rights reserved.
+//   Created by Adonis Rumbwere on 12/5/2021.
+//  Copyright © 2020 Adonis Inc. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
+import TextFieldEffects
 
 class MainChatRoomViewController: UIViewController {
     // MARK: Properties for room.
@@ -16,12 +17,15 @@ class MainChatRoomViewController: UIViewController {
     @IBOutlet weak var joinButton: UIButton!
     @IBOutlet weak var preview: UIImageView!
     @IBOutlet weak var containerView: UIView!
-        
+    
+    @IBOutlet weak var JoinEndButton: UIButton!
+    @IBOutlet weak var RoomNumberTxt: YokoTextField!
+    
     var roomClient: RoomClient?
     var roomInfo: JoinResponseParam? {
         didSet {
             DispatchQueue.main.async {
-                self.joinButton.isSelected = self.isConnected
+                self.JoinEndButton.isSelected = self.isConnected
             }
         }
     }
